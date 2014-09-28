@@ -73,32 +73,15 @@
 	<modules>
 		<!-- Schemas -->
 		<module>schemas</module>
-		<module>schema-parent</module>
-		<module>csw</module>
-		<module>filter</module>
-		<module>gml</module>
-		<module>ic</module>
-		<module>kml</module>
-		<module>om</module>
-		<module>owc</module>
-		<module>ows</module>
-		<module>sensorML</module>
-		<module>sld</module>
-		<module>sweCommon</module>
-		<module>wcs</module>
-		<module>wfs</module>
-		<module>wms</module>
-		<module>wps</module>
-		<module>scripts</module>
 	</modules>
 	<properties> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
-		<jaxb2-basics.version>0.8.1</jaxb2-basics.version>
-		<jaxb-ri.version>2.1.13</jaxb-ri.version>
+		<jaxb2-basics.version>0.8.5-SNAPSHOT</jaxb2-basics.version>
+		<jaxb-ri.version>2.2.7</jaxb-ri.version>
 		<jaxb-api.version>2.1</jaxb-api.version>
-		<maven-jaxb2-plugin.version>0.9.0</maven-jaxb2-plugin.version>
+		<maven-jaxb2-plugin.version>0.9.1</maven-jaxb2-plugin.version>
 		<w3c-schemas.version>1.0.2-SNAPSHOT</w3c-schemas.version>
-		<jsonix-schema-compiler.version>2.1.2-SNAPSHOT</jsonix-schema-compiler.version>
+		<jsonix-schema-compiler.version>2.2.1-SNAPSHOT</jsonix-schema-compiler.version>
 	</properties> 
 	<dependencies>
 		<dependency>
